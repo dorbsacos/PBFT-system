@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "n1",
+      "host": "localhost",
+      "port": 5001
+    },
+    {
+      "id": "n2",
+      "host": "localhost",
+      "port": 5002
+    },
+    {
+      "id": "n3",
+      "host": "localhost",
+      "port": 5003
+    },
+    {
+      "id": "n4",
+      "host": "localhost",
+      "port": 5004
+    },
+    {
+      "id": "n5",
+      "host": "localhost",
+      "port": 5005
+    },
+    {
+      "id": "n6",
+      "host": "localhost",
+      "port": 5006
+    },
+    {
+      "id": "n7",
+      "host": "localhost",
+      "port": 5007
+    }
+  ],
+  "clients": [
+    {"id": "A", "port": 6001},
+    {"id": "B", "port": 6002},
+    {"id": "C", "port": 6003},
+    {"id": "D", "port": 6004},
+    {"id": "E", "port": 6005},
+    {"id": "F", "port": 6006},
+    {"id": "G", "port": 6007},
+    {"id": "H", "port": 6008},
+    {"id": "I", "port": 6009},
+    {"id": "J", "port": 6010}
+  ],
+  "fault_tolerance": 2,
+  "initial_balance": 10,
+  "quiet_logs": false
+}
+
